@@ -21,7 +21,7 @@
         <form method="post" action="{{ route('getneodata') }}">
             <div class="row mt-2">
                 @csrf
-                <center><p>Select date range between 1 to 7 days </p></center><br>
+                
                 <div class="form-group col-md-6 required">
                     <label for="fromDate">From Date:<span style="color:#ff0000"> *</span></label>
                     <input type="text" name="fromDate" width="50%" id="fromDate"

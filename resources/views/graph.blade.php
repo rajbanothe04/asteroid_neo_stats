@@ -50,10 +50,9 @@
     <div class="container card p-3 bg-white" style="width: 1000px">
         <div class="row">
             <div class="col-md-6 required">
-                <h4>Fastest Asteroid Id & Speed(in KM/Hour){{ $fastestAseroidId . '=' . $fastestAseroid }}</h4><br>
-               <h4> Closest Asteroid Id & Distance(in KM){{ $closestAseroidId . '=' . $closestAseroid }} </h4><br>
-               <h4> Average Size of the Asteroids in kilometers: {{$average}} </h4>
-               {{-- <h4> Average Size of the Asteroids in kilometers(max){{$average_max}} </h4> --}}
+                <h4><b>Fastest Asteroid:</b><br>Asteroid ID is {{ $fastestAseroidId }}<br>Speed in KM/H = {{$fastestAseroid }}</h4><br>
+               <h4><b>Closest Asteroid:</b><br>Asteroid ID is {{ $closestAseroidId }}<br>Distance = {{$closestAseroid }} </h4><br>
+               <h4><b>Average Size of the Asteroids:</b><br> In kilometers =</b>{{$average}} </h4>
             </div>
             <div class="col-md-6 required">
                 <div style="width: 450px;height: 450px;">
